@@ -1,0 +1,19 @@
+.search {
+    padding-top: 60px;
+    background: #f0f6f8;
+    .h1 {
+        color: #246EB9;
+    }
+    &_img {
+        width: 100%;
+    }
+    &--pt {
+        padding-top: 5px;
+    }
+}
+.category_search-block {
+    border: none;
+}
+.category_block--border {
+    border-bottom: none;
+}

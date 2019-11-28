@@ -1,0 +1,88 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0 30px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &_item {
+        border: 1px solid rgb(223, 223, 223);
+        margin-right: 30px;
+        background: #fff;
+        position: relative;
+        width: 345px;
+        min-height: 370px;
+        margin-bottom: 29px;
+        border-radius: 3px;
+        &:nth-child(3) {
+            margin-right: 0;
+        }
+        &:nth-child(6) {
+            margin-right: 0;
+        }
+    }
+    &_img {
+        width: 100%;
+        transition: all 0.1s linear;
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+    &_descr-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        padding: 24px 24px 35px 24px;
+        &--padding {
+            padding-bottom: 14px;
+        }
+    }
+    &_title {
+        font-size: 24px;
+        line-height: 33px;
+        font-weight: bold;
+        text-align: center;
+    }
+    &_descr {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        margin: 22px 0;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    &_coords {
+        padding-bottom: 80px;
+        .cards_descr {
+            padding-bottom: 0;
+        }
+       
+    }
+}
+.coord-text {
+    text-align: left;
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+
+.button_transparent {
+    background: transparent;
+    border: 2px solid #246EB9;
+    color: #246EB9;
+    position: absolute;
+    bottom: 25px;
+    margin-top: 25px;
+    &:hover {
+        background: #246EB9;
+        color: #fff;
+    }
+}
+.slick-track {
+    width: 100%;
+}

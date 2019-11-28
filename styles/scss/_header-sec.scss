@@ -1,0 +1,50 @@
+.header-sec {
+    background-color: #fff;
+    border-bottom: 4px solid #3C6725;
+    #main_menu li a {
+        color: #2E4052;
+    }
+    .icon_search-sec {
+        background-image: url(../../img/icon-search-2.png);
+    }
+    .icon_phone-sec {
+        background-image: url(../../img/call-2.png);
+    }
+    .icon_cart-sec {
+        background-image: url(../../img/icon_cart-2.png);
+    }
+    #main_menu li .signbutton {
+        border: 1.2px solid grey;
+        &:hover {
+            background: #F48A18;
+            color: #fff;
+            border: 1px solid rgba(46, 64, 82, 0.25);
+            text-decoration: none;
+        }
+    }
+    .search_input--color {
+        background-color: #e4e4e4;
+        color: #2E4052;
+        font-size: 14px;
+    }
+    
+    #search_input::placeholder {
+        color: rgb(77, 102, 128);
+    } 
+}
+.navbar-toggler_block {
+    background-color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+.navbar-toggler_line {
+    height: 4px;
+    width: 22px;
+    background: grey;
+    margin-bottom: 3px;
+    border-radius: 1px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+

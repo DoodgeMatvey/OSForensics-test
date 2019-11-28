@@ -1,0 +1,260 @@
+.main-section {
+    background-image: url(/img/main-bg.png);
+    background-size: cover;
+    height: 673px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    &_block {
+        display: flex;
+        flex-direction: row;
+        // padding-top: 132px;
+        padding-top: 100px;
+    }
+    &_sub-block {
+        color: #fff;
+        font-size: 35px;
+    }
+    &_slide-img {
+        margin-right: 44px;
+        // margin-left: 68px;
+        // height: 362px;
+
+        width: auto;
+    }
+    &_descr {
+        padding-top: 20px;
+    }
+    &_price-img {
+        width: 253px;
+        margin-top: 44px;
+    }
+    &_buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &_list-item {
+        color: #fff;
+        font-size: 21px;
+        line-height: 33px;
+        padding-left: 30px;
+        &:before {
+            position: absolute;
+            content: url('../../img/Ellipse.png');
+            width: 8px;
+            height: 8px;
+            margin-left: -30px;
+        }
+    }
+    &_title {
+        font-family: 'Proxima Nova Rg';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        color: #fff;
+    }
+}
+.text-color {
+    color: #6CA342;
+}
+.button {
+    padding-top: 75px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 11px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #247BA0;
+    transition: all 0.1s linear;
+    &:hover {
+        background: rgb(60, 167, 212); 
+    }
+} 
+.button--color {
+    background: #F4743B;
+    &:hover {
+        background: rgb(255, 158, 116); 
+    }
+}
+
+
+.block-section {
+    padding: 75px 0;
+}
+
+
+//---------Events--------
+
+.events {
+    padding: 70px 0;
+    .cards_item {
+        min-height: 410px;
+    }
+}
+.slick-slide {
+    margin: 0px 12px;
+}
+.slick-dots li button:before {
+    color: #63A3F7!important;
+    font-size: 10px;
+    content: '•';
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before {
+    content:'○';
+    opacity: 1;
+    font-size: 30px;
+    color: #63A3F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li.slick-active button {
+    width: 30px;
+    height: 33px;
+}
+
+.slick-prev {
+    left: -130px;
+    background-image: url('../../img/slide_left.png');
+}
+.slick-prev, .slick-next {
+    width: 60px;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: contain;
+}
+.slick-next {
+    right: -130px;
+    background-image: url('../../img/slide_right.png');
+}
+
+.slick-next:hover, .slick-next:focus {
+    width: 60px;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: cover;
+    background-image: url('../../img/slide_right.png');
+}
+
+.slick-prev:hover, .slick-prev:focus {
+    width: 60px;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-size: cover;
+    background-image: url('../../img/slide_left.png');
+}
+.slick-prev:before, .slick-next:before {
+    content: "";
+    color: transparent;
+}
+
+//---------Customers--------
+
+.customers_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.customers-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    &_img {
+        margin-right: 44px;
+        width: 127px;
+        cursor: pointer;
+        height: 127px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+//---------Footer--------
+
+.footer {
+    &_title {
+        font-family: 'Proxima Nova Rg';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        color: #191919;
+    }
+    &-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &_block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        text-align: left;
+    }
+    &_links {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    &_link-item {
+        color: $color__sec;
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: left;
+        &::before {
+            position: absolute;
+            content: url('../../img/arrow.png');
+            width: 10px;
+            height: 10px;
+            left: 0;
+            margin-left: 0;
+        }
+    }
+}
+
+
+//---------Copyright--------
+.copyright {
+    padding: 15px;
+}
+.copyright-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #252A37;
+    background-color: #fff;
+}
+.payment {
+    &_img {
+        margin-right: 5px;
+    }
+}
+
+
+
+//sections
+.section_main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
