@@ -14,7 +14,7 @@
         background-image: url(../../img/icon_cart-2.png);
     }
     #main_menu li .signbutton {
-        border: 1.2px solid grey;
+        border: 1px solid grey;
         &:hover {
             background: #F48A18;
             color: #fff;
@@ -35,7 +35,8 @@
 .navbar-toggler_block {
     background-color: #fff;
     border: none;
-    margin-top: 15px;
+    display: none;
+    margin-top: 14px;
 }
 .navbar-toggler_line {
     height: 4px;
@@ -45,6 +46,7 @@
     border-radius: 1px;
     &:last-child {
         margin-bottom: 0;
+        height: 4px;
     }
 }
 

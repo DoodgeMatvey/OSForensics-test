@@ -1,0 +1,120 @@
+.support {
+
+
+    &_title {
+        color: #246EB9;
+        margin-bottom: 35px;
+    }
+    &_sec-title {
+        padding: 0 0 35px 0;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        font-family: 'Proxima Nova Rg';
+        color: #191919;
+    }
+}
+
+.contact_info_block {
+    background-color: #fff;
+    padding: 35px 50px;
+    min-height: 287px;
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.contact_info_block h4::before, .contact_info_block .mail_info::before, .contact_info_block .fax_info::before, .contact_info_block .more_phone_info::before, .contact_info_block .phone_info::before {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin-left: -24px;
+}
+.text-grey {
+    color: #8D8D8D;
+    text-decoration: none;
+    font-weight: normal !important;
+}
+.contact_info_block.australia {
+    background-image: url(../../img/bg_australia.png);
+}
+.contact_info_block.america {
+    background-image: url(../../img/bg_america.png);
+}
+.contact_info_block .adress_info h4::before {
+    padding-top: 21px;
+    background-image: url(../../img/icon_map.png);
+}
+.contact_info_block .more_phone_info::before {
+    background-image: url(../../img/icon_phone_3.png);
+    margin-top: 3px;
+}
+.contact_info_block .fax_info::before {
+    background-image: url(../../img/icon_fax.png);
+    margin-top: 3px;
+}
+.contact_info_block .phone_info::before {
+    background-image: url(../../img/icon_phone_2.png);
+    margin-top: 3px;
+}
+.contact_info_block .mail_info::before {
+    background-image: url(../../img/icon_mail.png);
+    margin-top: 3px;
+}
+.map_block iframe {
+    width: 100%;
+    height: 122px;
+    border: none;
+}
+.coord_text {
+    margin-bottom: 0;
+}
+.support_main-content {
+    margin-right: 0;
+}
+.mail_info {
+    padding: 15px 0 10px 0;
+}
+.fax_info {
+    padding-top: 10px;
+}
+.support-map {
+    padding-top: 15px;
+}
+.on-web {
+    padding: 50px 0;
+    background-color: #fff;
+
+
+    &_img {
+        width: 127px;
+        height: 127px;
+        padding-bottom: 10px;
+    }
+}
+.on-web-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &_title {
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+.text-pb {
+    padding-bottom: 10px;
+}
+
+
+.video--pad {
+    padding: 20px;
+}

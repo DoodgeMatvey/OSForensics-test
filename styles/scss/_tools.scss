@@ -1,0 +1,72 @@
+.tools {
+
+    &_logo {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 54px;
+        color: #FFFFFF;
+    }
+    &_logo-workbench {
+        font-size: 31px;
+    }
+    &_menu {
+        margin-top: 10px;
+    }
+    &_title {
+        align-self: center;
+        text-align: center;
+        font-size: 38px;
+        line-height: 37px;
+        font-weight: bold;
+        font-family: "Proxima Nova Rg";
+        color: #191919;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    &_main-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0;
+        background-color: #F0F6F8;
+    }
+    &_section {
+        padding: 35px 0 45px 0;
+
+        p {
+            margin-bottom: 15px;
+        }
+        img {
+            width: auto;
+            max-width: 100%;
+        }
+        .download_link {
+            align-self: flex-start;
+            justify-content: flex-start;
+        }
+    }
+    &_note {
+        font-size: 20px;
+    }
+    &_link-block {
+        display: flex;
+        flex-direction: row;
+        
+        &--pad {
+            margin: 0 10px;
+        }
+    }
+    &_sub-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    &_volatility-img {
+        width: 50%;
+    }
+   
+}
+.whatsnew {
+    p {
+        margin-bottom: 0;
+    }
+}

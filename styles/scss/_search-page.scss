@@ -1,0 +1,215 @@
+.search_page {
+    background-color: #f0f5f8;
+}
+.search_page .infoline {
+    color: #B7BFC2;
+    font-size: 14px;
+  }
+  
+  .search_page .searchheading {
+    color: #191919 !important;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 33px;
+    font-family: 'ProximaNova-Bold';
+    margin-top: 37px;
+    line-height: 35px;
+  }
+  
+  .search_page .summary {
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+  
+  .search_page .highlight {
+    color: #ef6700;
+  }
+  
+  .search_page .result_pagescount {
+    display: none;
+  }
+  
+  .search_page .result_block,
+  .search_page .result_altblock {
+    margin-bottom: 18px;
+    background-color: #fff;
+    padding: 15px 17px;
+    border-radius: 3px;
+  }
+  
+  .search_page .cat_summary {
+    font-size: 16px;
+    font-family: 'Open Bold';
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  .search_page .cat_summary ul {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+  
+  .search_page .cat_summary ul li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  
+  .search_page .zoom_searchform {
+    padding-top: 11vh;
+  }
+  
+  .search_page #zoom_cat {
+    background: transparent;
+    border: none;
+    color: #444444;
+    font-size: 15px;
+  }
+  
+  .search_page #zoom_cat:hover {
+    cursor: pointer;
+  }
+  
+  .search_page center p {
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #B7BFC2;
+    font-family: 'Open Bold';
+    padding-top: 15vh;
+  }
+  
+  .search_page center p small {
+    font-size: 14px;
+  }
+  
+  .search_page label[for="zoom_searchbox"] {
+    display: none;
+  }
+  
+  .search_page label[for="zoom_match_any"] {
+    margin-left: 12px;
+    margin-right: 10px;
+  }
+  
+  .search_page #zoom_match_any,
+  .search_page #zoom_match_all {
+    display: none;
+  }
+  
+  .search_page .checkmark {
+    display: inline-block;
+    height: 17px;
+    margin-bottom: -3px;
+    margin-right: 3px;
+    width: 17px;
+    background-image: url(/source/images/icon_checkbox.png);
+    background-repeat: no-repeat;
+  }
+  
+  .search_page #zoom_match_block {
+    margin-right: 12px;
+  }
+  
+  .search_page input:checked ~ .checkmark {
+    background-image: url(/source/images/icon_checkbox_selected.png);
+  }
+  
+  #search_options {
+    border-bottom: 1px solid #DBE4E8;
+  }
+  
+  .search_page .zoom_results_per_page {
+    display: none;
+  }
+  
+  .search_page #zoom_searchbox_label input.zoom_button {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Bold';
+    background: #F48A18 !important;
+    color: #fff;
+    padding: 11px 35px;
+    background-image: url(/source/images/icon_search_big.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+  }
+  
+  .search_page #zoom_searchbox_label input.zoom_button:hover {
+    cursor: pointer;
+  }
+  
+  .search_page .zoom_match,
+  .search_page label[for='zoom_cat'] {
+    font-size: 14px;
+    line-height: 13px;
+    font-family: 'Open Bold';
+    color: #3F4850;
+    margin-right: 15px;
+  }
+  
+  .search_page label[for="zoom_match_any"],
+  .search_page label[for="zoom_match_all"] {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  .search_page .zoom_match {
+    margin-right: 60px;
+    font-size: 15px;
+    display: inline-block;
+  }
+  
+  .search_page .search_options {
+    border-bottom: 1px solid #DBE4E8;
+    padding-bottom: 6px;
+  }
+  
+  .search_page #zoom_searchbox_label {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 20px 30px;
+    margin-top: 25px;
+  }
+  
+  .search_page #zoom_searchbox {
+    width: 92%;
+    display: block;
+    border: none;
+  }
+  h1.black_title {
+    text-align: center;
+    color: #191919 !important;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-size: 38px;
+}
+.search_page #zoom_searchbox_label input.zoom_button {
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Bold';
+    background: #F48A18 !important;
+    color: #fff;
+    padding: 11px 35px;
+    background-image: url(/source/images/icon_search_big.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+}

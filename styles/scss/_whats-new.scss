@@ -1,0 +1,47 @@
+.whats-new {
+    padding: 20px;
+
+    ul,ol {
+        padding-left: 35px;
+        font-size: 14px;
+        color: #444444;
+        margin-bottom: 3px;
+    }
+    
+    &_title-block {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 16px;
+        color: #3F4850;
+        background: transparent;
+        border: none;
+        margin-bottom: 0;
+        
+    }
+    &--t-bold {
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+    &--pb {
+        padding-bottom: 0;
+    }
+}
+.whats-new-block {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.whats-new-content {
+    padding: 15px;
+    padding-left: 35px;
+    font-size: 14px;
+    ul {
+        color: #444444;
+        margin-bottom: 3px;
+        font-size: 14px;
+        li {
+            font-size: 14px;
+            color: #444444;
+        }
+    }
+    
+}

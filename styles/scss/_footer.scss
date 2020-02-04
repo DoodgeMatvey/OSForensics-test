@@ -1,7 +1,53 @@
+.footer_title--pt {
+    padding-top: 15px;
+}
 .footer {
     background-color: #F0F6F8;
     border-top: 4px solid #3C6725;
+
+    &_title {
+        font-family: 'Proxima Nova Rg';
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: left;
+        color: #191919;
+    }
+    &-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &_block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        text-align: left;
+    }
+    &_links {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    &_link-item {
+        color: $color__sec;
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: left;
+        display: flex;
+        &::before {
+            position: absolute;
+            content: url('../../img/arrow.png');
+            width: 10px;
+            height: 10px;
+            left: 0;
+            margin-left: 0;
+        }
+    }
 }
-.footer_title--pt {
-    padding-top: 15px;
+.copyright {
+    background-color: #fff;
 }

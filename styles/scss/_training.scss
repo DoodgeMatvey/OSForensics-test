@@ -1,0 +1,108 @@
+.training {
+    
+    &_title-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        margin-left: 25px;
+    }
+    &_title {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: left;
+        color: #191919;
+        padding-top: 32px;
+
+    }
+    &_img {
+        height: 143px;
+        width: auto;
+    }
+
+}
+
+.training-materials {
+    &_item {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+
+        .btn_buy-now {
+            margin-bottom: 10px;
+            max-width: 135px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn--w {
+            width: 100%;
+            max-width: 74%;
+        }
+    }
+    &_descr {
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+.training--padding {
+    padding: 10px 0;
+}
+
+.traning-materials-block {
+    
+    .bundle-discount {
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .products-buttons {
+        position: relative;
+        display: flex;
+        bottom: 0;
+        margin-top: 33px;
+        bottom: 5px;
+    }
+}
+.training-pad {
+    padding-bottom: 70px;
+    padding-top: 0;
+}
+.btn_buy-now {
+    margin-bottom: 10px;
+}
+.btn--no-active {
+    border: 1px solid #DFE8F1;
+    cursor: unset;
+    &:hover {
+        background: #fff;
+        color: #246EB9;
+    }
+}
+.training-materials-show {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.training-materials-text {
+    padding: 5px 30px 30px 30px;
+    width: 100%;
+}
+.training-list {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.products_title--bigger {
+    font-size: 28px;
+    line-height: 38px;
+}
+.text-italic {
+    font-style: italic;
+    color: #444444;
+}

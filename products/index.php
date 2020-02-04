@@ -1,0 +1,117 @@
+<?php include ($_SERVER['DOCUMENT_ROOT']."/header-sec.php");?>
+    <section class="products block-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 block--center">
+                    <h1 class="h1">Products</h1>
+                </div>
+            </div>
+            <div class="row section_main-content">
+                <div class="col-lg-12 products-main">
+                    <div class="bundle-discount bundle-discount-main">
+                    <a  href="https://www.passmark.com/sales/cart.php?add&id[]=PM060&id[]=PM083&id[]=PM084&id[]=PM062&qty=1"><img src="/img/products-os/bundle-discount.png" alt=""></a>
+                        <div class="bundle-text">
+                            <h3 class='products_title'><a class="products_links" href="https://www.passmark.com/sales/cart.php?add&id[]=PM060&id[]=PM083&id[]=PM084&id[]=PM062&qty=1">Bundle Discount</a></h3>
+                            <div class="product-counts"><sup>$</sup>895<sup>50</sup></div>
+                            <p>Purchase the <a href="/osforensics.html" class="category_link-more">OSForensics software</a> together with the Training Course, Certification Exam AND additional 12-months support and get 10% off your OSForensics purchase!</p>
+                        </div>
+                        <a href="https://www.passmark.com/sales/cart.php?add&id[]=PM060&id[]=PM083&id[]=PM084&id[]=PM062&qty=1" class="btn_buy-now" >Buy now</a>
+                    </div>
+                    <div class="products-cards">
+                        <div class="products-cards_item products-cards_item--pm">
+                            <a class="products-img-link" href="/osforensics.html"><img class="products-img-link_item" src="/img/products-os/products-card-1.png" alt=""></a>
+                            <div class="product-cards--pad">
+                                <h3 class='products_title'><a class="products_links" href="/osforensics.html">OSForensics</a></h3>
+                                <p>OSForensics lets you extract forensic evidence from computers quickly with high performance file searches and indexing. Identify suspicious files and activity with hash matching, drive signature comparisons, e-mails, memory and binary data. Manage your digital investigation and create reports from collected forensic data. Phone, E-mail, Forum support, plus free upgrades, for 12 months after purchase included.</p>
+                                <div class="products-buttons">
+                                    <a href="/download.html" class="btn_buy-now btn_buy-now--transp-b btn--mr">
+                                        free trial
+                                    </a>
+                                    <a href="https://www.passmark.com/sales/cart.php?add&id=PM060&qty=1" class="btn_buy-now btn_buy-now--transp-o">
+                                    Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-cards_item products-cards_item--pm">
+                            <a class="products-img-link" href="/tools/bootable-usb/index.html"><img class="products-img-link_item" src="/img/products-os/bootable-2.png" alt=""></a>
+                            <div class="product-cards--pad">
+                                <h3 class='products_title'><a class="products_links" href="/tools/bootable-usb/index.html" >OSForensics Bootable(USB Flash Drive)</a></h3>
+                                <p>The ability to boot OSForensics on a machine from a USB flash drive, without needing an operating system installed on the hard drive.
+                                    Note: From V2.2 it is now possible to make your own bootable drive directly within OSForensics.</p>
+                                <div class="products-buttons">
+                                    <a href="/tools/bootable-usb/index.html" class="btn_buy-now btn_buy-now--transp-b">
+                                        learn more
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products-cards_item products-cards_item--pm">
+                            <a class="products-img-link" href="/tools/rainbow-tables/index.html"><img class="products-img-link_item" src="/img/products-os/bootable-3.png" alt=""></a>
+                            <div class="product-cards--pad">
+                                <h3 class='products_title'><a class="products_links" href="/tools/rainbow-tables/index.html">Rainbow Tables -3TB hard disk</a></h3>
+                                <p>This product is an internal SATA 3TB hard disk (manufacturer may vary) which has copies of a number of different rainbow tables and hash sets from various external sources and several generated by PassMark.</p>
+                                <div class="products-buttons">
+                                    <a href="/tools/rainbow-tables/index.html" class="btn_buy-now btn_buy-now--transp-b btn--mr">
+                                        Learn more
+                                    </a>
+                                    <a href="https://www.passmark.com/sales/cart.php?add&id=PM061&qty=1" class="btn_buy-now btn_buy-now--transp-o">
+                                    Buy Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="free-tools">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-auto free-tools_main">
+                    <h2 class="title">Free Tools</h2>
+                    <p class="free-tools_sub-text">The following collection of tools is provided as free downloads for use with OSForensics™.</p>
+                </div>
+                <div class="col-auto cards slider free-tools-track">
+                    <div class="cards_item">
+                        <div class="slider_img-block">
+                            <a href="/tools/mount-disk-images.html"><img class="cards_img slider_img" src="/img/products-os/osfmount-banner-1.png" alt="card-img"></a>
+                        </div>
+                        <div class="cards_descr-block">
+                            <h3 class="cards_title">OSFMount</h3>
+                            <p class="cards_descr">Identify evidence and suspicious activity through our hash matching.</p>
+                            <a href="/tools/mount-disk-images.html" class="button button_transparent">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="cards_item">
+                        <a href="/tools/create-disk-images.html"><img class="cards_img" src="/img/products-os/osfclone-banner.png" alt="card-img"></a>
+                        <div class="cards_descr-block">
+                            <h3 class="cards_title">OSFClone</h3>
+                            <p class="cards_descr">360° Case Management Solution. Manage your entire investigation.</p>
+                            <a href="/tools/create-disk-images.html" class="button button_transparent">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="cards_item">
+                            <a href="/tools/write-usb-images.html"><img class="cards_img" src="/img/products-os/imageusb-banner.png" alt="card-img"></a>
+                        <div class="cards_descr-block">
+                            <h3 class="cards_title">ImageUSB</h3>
+                            <p class="cards_descr">360° Case Management Solution. Manage your entire investigation.</p>
+                            <a href="/tools/write-usb-images.html" class="button button_transparent">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="cards_item">
+                        <div class="slider_img-block">
+                            <a href="/tools/volatility-workbench.html"><img class="cards_img slider_img" src="/img/collection-5.png" alt="card-img"></a>
+                        </div>
+                        <div class="cards_descr-block">
+                            <h3 class="cards_title">Volatility Workbench</h3>
+                            <p class="cards_descr">Identify evidence and suspicious activity through our hash matching.</p>
+                            <a href="/tools/volatility-workbench.html" class="button button_transparent">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<?php include ($_SERVER['DOCUMENT_ROOT']."/footer.php"); ?> 

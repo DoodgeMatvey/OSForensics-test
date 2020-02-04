@@ -1,0 +1,188 @@
+.pricing-nav {
+    display: flex;
+    flex-direction: row;
+
+    &_item {
+        margin-right: 20px;
+        color: #848E99;
+        font-weight: bold;
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(46, 64, 82, 0.57);
+        background-color: transparent;
+        cursor: pointer;
+
+        &:hover {
+            color: #63A3F7;
+        }
+        &:active {
+            color: #246EB9;
+        } 
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.price {
+
+    .slick-current {
+        color: #246EB9;
+    }
+    .price-h1--mb {
+        margin-bottom: 10px;
+    }
+    .button_buy {
+        padding: 35px 0 70px 0;
+    }
+}
+.button-contacts {
+    background: #246EB9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 30px;
+    height: 50px;
+    color: #fff;
+
+    &:hover {
+        background: rgb(28, 91, 155);
+    }
+    &:active {
+        background-color: #0062cc;
+        border-color: #005cbf;
+    }
+}
+.table-responsive {
+    width: 100%;
+    color: #3F4850;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding-top: 38px;
+
+    td, th {
+        border-top: none;
+        padding: 19px 17px;
+        vertical-align: middle;
+    }
+    th {
+        border-bottom: none;
+        font-size: 18px;
+        padding: 8px 17px;
+        font-weight: normal;
+        border-top: none;
+        font-weight: bold;
+        background: #f0f6f8;
+        padding-bottom: 10px;
+    }
+    table {
+        width: 100%;
+    }
+    tbody {
+        border-top: 1px solid #C4C4C4;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    tr {
+        &:nth-child(odd) {
+            background: #fff;
+        }
+    }
+    input[type=radio] {
+        display: none;
+        opacity: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    sup {
+        top: -.25em;
+        font-size: 68%;
+        padding: 0 3px;
+        font-weight: normal !important;
+    }
+   
+}
+
+.button_buy {
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+.price .checkmark {
+    display: inline-block;
+    height: 17px;
+    margin-bottom: -3px;
+    margin-right: 7px;
+    width: 17px;
+    background-image: url(../../img/products-os/icon_checkbox.png);
+    background-repeat: no-repeat;
+}
+.price  .price-f-checkbox {
+    background-image: url(../../img/products-os/icon_checkbox_selected.png);
+}
+.price input:checked ~ .checkmark, .intern_page input:checked ~ .checkmark, .step2_page .paiment_select input:checked ~ .checkmark, .step2_page .billing_details_table input:checked ~ .checkmark, .tabs_on_page input:checked ~ .checkmark {
+    background-image: url(../../img/products-os/icon_checkbox_selected.png);
+}
+
+.table-label {
+    font-weight: bold;
+    line-height: 59px;
+    font-size: 24px;
+    color: #444444;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.table-count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.price-descr {
+    padding-top: 34px;
+    padding-bottom: 64px;
+}
+.price-descr_title {
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: bold;
+    font-family: "Proxima Nova Rg";
+    padding-top: 30px;
+    color: #191919;
+    padding-bottom: 20px;
+}
+.price_descr_text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #444444;
+    align-self: flex-start;
+
+    .text-bold {
+        padding-right: 10px;
+    }
+}
+.price-text-left {
+    text-align: left;
+    align-self: flex-start;
+}
+.text-pl {
+    padding-left: 41px;
+}
+.center {
+    text-align: center;
+}
+

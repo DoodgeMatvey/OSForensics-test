@@ -23,25 +23,25 @@
                 <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
                 <ul class="navbar-nav header_nav">
                     <li class="nav-item dropdown">
-                        <a data-activemenu="software" class="nav-link dropdown-toggle" href="#" id="softwareDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a data-activemenu="software" class="nav-link dropdown-toggle" href="/index.html" id="softwareDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Home
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a data-activemenu="hardware" class="nav-link dropdown-toggle" href="#" id="hardwareDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a data-activemenu="hardware" class="nav-link dropdown-toggle" href="/products/index.php" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Products
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="benchmarksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="/training.html" id="benchmarksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Training
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+                        <a class="nav-link dropdown-toggle" href="/support.html" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="sales_link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="https://www.passmark.com/about/" id="sales_link" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About Us
                         </a>
                     </li>
@@ -49,24 +49,24 @@
                 </div>
                 <ul id="search_form" class="nav navbar-nav left-nav-bar">
                     <li class="search_form--center active">
-                        <!-- <form action="/search/zoomsearch.php" class="form-inline my-lg-0"> -->
-                            <input name="zoom_query" id="search_input" class="form-control search_input mr-sm-2" type="search" placeholder="Search entire site..." aria-label="Search">
-                            <button id="search_submit" class="icon_search icons" type=""></button>
+                        <!-- <form action="/search-link.html" class="form-inline">  -->
+                            <input name="zoom_query" value="osf" id="search_input" class="form-control search_input mr-sm-2" type="search" placeholder="Search entire site..." aria-label="Search">
+                            <button type="submit" id="search_submit" class="icon_search icons" ></button>
                         <!-- </form>  -->
                     </li>
                     <li>
-                        <a href="/about/contact_us.php">
+                        <a href="/support.html">
                             <span class="icons icon_phone"></span>
                         </a>
                     </li>
                     <li>
-                        <a href="/sales/shop.php">
+                        <a href="https://www.passmark.com/sales/cart.php?display#">
                             <span class="white icons icon_cart" id="count_cart">
                                                         </span>
                         </a>
                     </li>
                     <li>
-                        <a class="signbutton white" href="/login.php">Sign In</a>
+                        <a class="signbutton white" href="https://www.passmark.com/login.php">Sign In</a>
                     </li>
                 </ul>
             </nav>

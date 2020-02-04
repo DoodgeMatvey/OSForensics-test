@@ -14,6 +14,7 @@
     &_sub-block {
         color: #fff;
         font-size: 35px;
+        padding-bottom: 5px;
     }
     &_slide-img {
         margin-right: 44px;
@@ -60,6 +61,10 @@
     color: #6CA342;
 }
 .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
     padding-top: 75px;
     text-transform: uppercase;
     font-weight: bold;
@@ -74,13 +79,21 @@
     background: #247BA0;
     transition: all 0.1s linear;
     &:hover {
-        background: rgb(60, 167, 212); 
+        background: rgb(28, 91, 155);
+    }
+    &:active {
+        background-color: #0062cc;
+        border-color: #005cbf;
     }
 } 
 .button--color {
     background: #F4743B;
     &:hover {
-        background: rgb(255, 158, 116); 
+        background: rgb(219, 121, 15);
+    }
+    &:active {
+        background-color: #d39e00;
+        border-color: #c69500;
     }
 }
 
@@ -88,14 +101,20 @@
 .block-section {
     padding: 75px 0;
 }
-
+.cards-section {
+    .cards_item {
+        min-height: 440px;
+    }
+}
 
 //---------Events--------
 
 .events {
+    background-color: #f0f6f8;
     padding: 70px 0;
     .cards_item {
-        min-height: 410px;
+        min-height: 405px;
+        flex: 1;
     }
 }
 .slick-slide {
@@ -174,59 +193,11 @@
     &_img {
         margin-right: 44px;
         width: 127px;
-        cursor: pointer;
         height: 127px;
         &:last-child {
             margin-right: 0;
         }
-        &:hover {
-            opacity: 0.8;
-        }
-    }
-}
-
-//---------Footer--------
-
-.footer {
-    &_title {
-        font-family: 'Proxima Nova Rg';
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: left;
-        color: #191919;
-    }
-    &-column {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    &_block {
-        display: flex;
-        flex-direction: column;
-        margin-top: 32px;
-        text-align: left;
-    }
-    &_links {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        padding-left: 20px;
-        margin-top: 20px;
-    }
-    &_link-item {
-        color: $color__sec;
-        font-size: 14px;
-        margin-bottom: 10px;
-        text-align: left;
-        &::before {
-            position: absolute;
-            content: url('../../img/arrow.png');
-            width: 10px;
-            height: 10px;
-            left: 0;
-            margin-left: 0;
-        }
+        
     }
 }
 
@@ -257,4 +228,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 15px;
+}
+.products-os_h1 {
+    font-size: 40px;
 }

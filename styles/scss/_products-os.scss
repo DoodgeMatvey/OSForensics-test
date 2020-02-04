@@ -1,0 +1,336 @@
+.top-line {
+    background: #246EB9;
+    padding-top: 80px;
+    padding-bottom: 14px;
+
+    &_nav-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &_button {
+        margin-right: 12px;
+        cursor: pointer;
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 10px 30px;
+        white-space: nowrap;
+        border: none;
+
+        &:first-child {
+            background: #FFFFFF;
+            color: #246EB9;
+            &:hover {
+                background: rgb(240, 240, 240);
+            }
+            &:active {
+                background-color: rgb(219, 219, 219);
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+            color: #fff;
+            background: #F48A18;
+            &:hover {
+                background: rgb(219, 121, 15);
+            }
+            &:active {
+                background-color: #d39e00;
+                border-color: #c69500;
+            }
+        }
+    }
+}
+.top-line-menu {
+    margin-top: 12px;
+    margin-left: 18px;
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: normal;
+    
+    &_item {
+        color: #fff;
+        margin-right: 20px;
+    }
+}
+.products-os {
+    &_descr-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 70px;
+    }
+    &_title {
+        font-family: "Proxima Nova Rg";
+        font-weight: bold;
+        font-size: 54px;
+        line-height: 53px;
+        max-width: 530px;
+        color: #246EB9;
+    }
+    &_sub-text {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+}
+
+.top-slider-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 15px;
+    &_item {
+        font-size: 21px;
+        line-height: 51px;
+        color: #191919;
+        outline: none;
+        display: flex;
+        align-items: center;
+        &:hover {
+            font-weight: bold;
+        }
+        &:before {
+            position: absolute;
+            content: url(../../img/products-os/Ellipse.png);
+            width: 8px;
+            height: 8px;
+            margin-left: -30px;
+        }
+    }
+}
+.max-content-slider {
+    max-width: 1140px;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.products-os-slider {
+    &_descr-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   
+}
+.products-os-main-block {
+    padding: 77px 0;
+    height: 519px;
+    width: 100%;
+    margin-right: 0;
+    display: flex!important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../../img/products-os/bg-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .cards_img {
+        width: 455px;
+    }
+}
+.manage-nav .slick-current {
+    color: #246EB9;
+}
+.products-main-section__slider-nav .slick-current {
+    color: #246EB9;
+}
+.identify-nav .slick-current {
+    color: #246EB9;
+}
+.products-os_descr-block {
+    margin-left: 20px;
+}
+.products-os_track {
+    width: 500px;
+}
+
+.products-os_track, .products-main-section {
+    .slick-prev {
+        left: 64px;
+        z-index: 99;
+        background-image: url(../../img/products-os/arr-left.png);
+    }
+    .slick-next {
+        right:  64px;
+        z-index: 99;
+        background-image: url(../../img/products-os/arr-right.png);
+    }
+}
+.free-tools {
+    .slick-prev {
+        left: -86px;
+        z-index: 99;
+        background-image: url(../../img/products-os/arr-left.png);
+    }
+    .slick-next {
+        right:  -86px;
+        z-index: 99;
+        background-image: url(../../img/products-os/arr-right.png);
+    }
+}
+.top-slider--no-padd {
+    padding: 0;
+}
+.products-os_track {
+    margin: 0;
+    padding: 0;
+}
+
+.products-main-section {
+    background-color: #f0f6f8;
+    line-height: 22px;
+    color: #444444;
+    padding: 77px 0;
+    
+    &-list {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    &_item {
+        display: flex!important;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &_ul {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    &_descr-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &_title {
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+        color: #191919;
+        &--pb {
+            padding-bottom: 10px;
+        }
+    }
+    &_text {
+        line-height: 22px;
+        font-size: 16px;
+        max-width: 483px;
+        &--pb {
+            padding-bottom: 22px;
+        }
+    }
+
+    &__slider-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    &_img {
+        height: 442px;
+        &--mr {
+            margin-right: 78px;
+            height: auto;
+            width: auto;
+        }
+        &--width {
+            max-width: 342px;
+            max-height: 342px;
+            margin-left: 70px;
+        }
+    }
+    &--bg {
+        background-color: #fff;
+    }
+    .slick-prev {
+        left: -80px;
+    }
+    .slick-next {
+        right: -80px;
+    }
+    .cards {
+        margin-top: 10px;
+    }
+}
+.identify-nav, .manage-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.complete-track, .identify-track ,.manage-track {
+    padding-bottom: 25px;
+}
+.slider-nav_item {
+    margin-right: 23px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #B7BFC2;
+    &:hover {
+        text-decoration-line: underline;
+        color: #63A3F7;
+    }
+    &:active {
+        color: #246EB9;
+    }
+}
+.products-main-section_ul-list {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.products-os-section {
+    &_title {
+        font-family: 'Proxima Nova Rg';
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 46px;
+        color: #191919;
+    }
+}
+
+.slick-current-link {
+    font-weight: bold!important;
+}
+
+.free-tools {
+    padding: 70px 0px 40px 0 ;
+    background-image: url("../../img/free-tools-bg.png");
+    .title {
+        padding-bottom: 18px;
+    }
+    .cards {
+        margin-top: 20px;
+    }
+    &_slider {
+        margin-top: 20px;
+
+    }
+    &--no-padding {
+        padding: 0;
+    }
+    &_sub-text {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #444444;
+    }
+}
+.slider_img-block {
+    background: #F6F5F5;
+    
+}
+
